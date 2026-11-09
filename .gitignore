@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project directories
+data/
+Claude outputs
+
+# Competition-derived data and large local files
+pipeline/*.jsonl
+outputs/
+models/
+.DS_Store
