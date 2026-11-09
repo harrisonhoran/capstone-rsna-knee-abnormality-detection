@@ -2,7 +2,7 @@
 
 - **Author:** Harrison Horan
 - **Date registered:** 2026-11-09, before any full run and before any model output was scored against the expert labels
-- **Git commit of this file:** fill in after committing (`git log -1 --format=%H`)
+- **Git commit of this file:** f684fcdd95eef7ec406e708e61ffb229bf7ecf81
 
 ## 1. Question
 
