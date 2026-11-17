@@ -23,7 +23,7 @@ from scipy.stats import rankdata
 
 PROJECT = Path(__file__).resolve().parent.parent
 RAW = PROJECT / "data" / "raw"
-LLM_DIR = PROJECT / "data" / "processed" / "labels" / "rsna_llm_labels"
+LLM_DIR = PROJECT / "outputs" / "reference"   # earlier two-reader report labels, gold studies, probabilities only
 OUT = PROJECT / "outputs" / "scores"
 
 LABELS = ["ACL", "MCL", "Medial Meniscus", "Lateral Meniscus", "Medial OA", "Lateral OA",

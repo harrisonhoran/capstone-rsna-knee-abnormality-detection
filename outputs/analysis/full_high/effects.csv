@@ -1,0 +1,17 @@
+effect,metric,delta,ci_low,ci_high,P(improvement),decision
+"H1 ontology, report only (T_onto - T_plain)",macro_auc,-0.003559807297028872,-0.010441147801995454,0.0031960156255333816,0.1493,no proven advantage
+"H2 ontology, with images (V_onto - V_plain)",macro_auc,0.004924182149842582,-0.0012739960611527572,0.012048278863521066,0.9357,no proven advantage
+H3 interaction (H2 - H1),macro_auc,0.008483989446871454,0.0014725873314420934,0.016185550511400856,0.9887,shown
+"Exploratory: images, no ontology (V_plain - T_plain)",macro_auc,0.03653137031367726,0.01953670574239703,0.05518035570906335,1.0,shown
+"H1 ontology, report only (T_onto - T_plain)",weak5_auc,-0.0007330257112498906,-0.013146253346099002,0.012301006470497654,0.4437,no proven advantage
+"H2 ontology, with images (V_onto - V_plain)",weak5_auc,0.005916402783386121,-0.00666717200462785,0.020724635769017008,0.8021,no proven advantage
+H3 interaction (H2 - H1),weak5_auc,0.006649428494636012,-0.008150887201992123,0.02232375569334176,0.8187,no proven advantage
+"Exploratory: images, no ontology (V_plain - T_plain)",weak5_auc,0.05279411401749856,0.024682848492666748,0.08454733785236504,1.0,shown
+"H1 ontology, report only (T_onto - T_plain)",mimic_auc,-0.0034490198708130304,-0.011393933152670968,0.004385895174629537,0.1873,no proven advantage
+"H2 ontology, with images (V_onto - V_plain)",mimic_auc,0.005030945062998504,-0.0031059891553417347,0.014934456460185182,0.8769,no proven advantage
+H3 interaction (H2 - H1),mimic_auc,0.008479964933811535,-0.0037245610616083945,0.022506419668201074,0.9193,no proven advantage
+"Exploratory: images, no ontology (V_plain - T_plain)",mimic_auc,0.021625628189432144,0.004843220574239299,0.04165741294524175,0.9964,shown
+"H1 ontology, report only (T_onto - T_plain)",log_loss,0.00243042039878677,-0.008791856634741474,0.013264053847195518,0.3366,no proven advantage
+"H2 ontology, with images (V_onto - V_plain)",log_loss,-0.004066056151398267,-0.01485064068393518,0.0059496224711634155,0.7763,no proven advantage
+H3 interaction (H2 - H1),log_loss,-0.0064964765501850374,-0.017059258851653897,0.004011857713536041,0.8842,no proven advantage
+"Exploratory: images, no ontology (V_plain - T_plain)",log_loss,-0.10437512866428988,-0.14325874510612813,-0.06968244157528525,1.0,shown

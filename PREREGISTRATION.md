@@ -92,4 +92,5 @@ Any change after this file is committed is recorded here with its date and reaso
 
 | Date | Change | Reason |
 | --- | --- | --- |
-| | | |
+| 2026-11-17 | Reference report labels (`llm_claude_full.csv`, `llm_openai_full.csv`) moved to `outputs/reference/`, cut to the 58 gold studies and the probability columns; `LLM_DIR` in `04_score.py` updated. | Repository clean-up, so the reference row and self-check can be published without report text. Scores unchanged (all analysis CSVs reproduce byte-for-byte). |
+| 2026-11-17 | Source comments in `prompts/templates/ontology_knowledge.md` edited (a source URL added). | Attribution only. HTML comments are stripped by `03_build_prompts.py`; the built prompt md5s are unchanged. |

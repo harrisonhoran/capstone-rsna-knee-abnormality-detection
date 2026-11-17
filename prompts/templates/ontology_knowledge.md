@@ -1,12 +1,13 @@
 <!--
-Ontology knowledge for the ontology arm. Curated from knee_mri_ontology.json (project copy claude/knee_mri_ontology.json).
+Ontology knowledge for the ontology arm.
 Included: imaging signs, grading scales, detection cues, mimics and pitfalls.
 Excluded on purpose: competition_label_prior bands, calibration_notes, co-occurrence and etiology percentages,
 epidemiology, management and treatment. Each section names its source fields.
 HTML comments are removed by 03_build_prompts.py and never reach the model.
 -->
 ### ACL tear
-<!-- source: labels.acl_tear.primary_mri_signs_essential_criteria, secondary_mri_signs, detection_cues, mimics_and_pitfalls, common_pitfalls, differential_diagnosis.abnormal_signal_without_tear -->
+<!-- source: https://msk-radiology.com/knee/knee-anterior-cruciate.html
+labels.acl_tear.primary_mri_signs_essential_criteria, secondary_mri_signs, detection_cues, mimics_and_pitfalls, common_pitfalls, differential_diagnosis.abnormal_signal_without_tear -->
 - Primary signs: non-visualisation of ACL fibres; complete fibre discontinuity; abnormal orientation (not parallel to the Blumensaat line); mass-like appearance with oedema or haemorrhage.
 - Secondary signs: lateral femoral notch (sulcus) deeper than about 1.5-2 mm; contusions of the lateral femoral condyle and posterior lateral tibial plateau; Segond fracture; tibial spine avulsion; anterior tibial translation over 7 mm; PCL buckling (angle under 105 degrees).
 - Look at all three planes: empty notch on axial images, ACL fibres on sagittal, Segond fracture on coronal.

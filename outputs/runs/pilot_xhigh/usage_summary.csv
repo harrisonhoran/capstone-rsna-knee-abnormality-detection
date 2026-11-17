@@ -1,0 +1,5 @@
+cell,repeat,studies,mean_input_tokens,mean_output_tokens,mean_reasoning_tokens,mean_cost_usd,total_cost_usd,mean_seconds
+T_plain,1,5,1473,1040,501,0.006,0.03,15.3
+T_onto,1,5,4095,1803,981,0.0103,0.05,31.3
+V_plain,1,5,30846,4524,3752,0.0525,0.26,91.7
+V_onto,1,5,33468,5178,4143,0.0564,0.28,97.8
