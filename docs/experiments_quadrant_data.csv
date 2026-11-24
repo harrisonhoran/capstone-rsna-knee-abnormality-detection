@@ -1,0 +1,50 @@
+Experiment,Benefit (change in macro AUC),Estimated GPU-hours,Estimated CPU-hours,Total cost (GPU-hour equivalent),Cost-efficiency (0-100; 100 = cheapest),Stage
+v3.1 report labels,-0.0100,8,0.5,8.05,16,Labels
+Public-model pseudo-labels (a50),0.0050,7,0.1,7.01,18,Labels
+Dual-LLM relabel (a50new),-0.0085,10,0.2,10.02,14,Labels
+Text-rule labels (a50r),-0.0040,1.5,0.5,1.55,37,Labels
+2nd distillation round (a50v2),0.0115,3,0.1,3.01,29,Labels
+LLM review of report labels,0.0016,1,0.1,1.01,42,Labels
+Reviewed PF OA text (a50v4),-0.0028,5,0.1,5.01,22,Labels
+3rd-LLM adjudication,0.0020,0.2,0.05,0.205,62,Labels
+Synovitis label rule,-0.0016,0.5,0.1,0.51,51,Labels
+Knee-centred crop,0.0023,9,9,9.9,14,Input and preprocessing
+Sagittal re-crop,-0.0050,6,3,6.3,19,Input and preprocessing
+Sixth series slot,-0.0030,1.2,0,1.2,40,Input and preprocessing
+Denser layout (40 windows),0.0079,4,0,4,25,Input and preprocessing
+Overlapping windows (55),0.0021,4,0,4,25,Input and preprocessing
+36-slice cache,0.0000,8,9,8.9,15,Input and preprocessing
+384 px input,0.0014,0.6,0,0.6,49,Input and preprocessing
+Left knees mirrored,0.0038,3,2,3.2,28,Input and preprocessing
+Centre crop 256,0.0000,1.5,0,1.5,37,Input and preprocessing
+OAI knees as extra data,-0.0025,12,3,12.3,11,Input and preprocessing
+DINOv2 learning rate ×3,0.0150,11.5,0,11.5,12,Model and training
+EfficientNet-B4 member,0.0048,15,0,15,9,Model and training
+ConvNeXt-T Optuna tune,0.0370,6,0,6,20,Model and training
+ConvNeXt-T re-tune,0.0019,2.5,0,2.5,31,Model and training
+CoAtNet-2,-0.0020,12,0,12,11,Model and training
+ConvNeXt-S 384,-0.0018,10,0,10,14,Model and training
+EfficientNetV2-S,-0.0035,4,0,4,25,Model and training
+MaxViT-T,-0.0004,10,0,10,14,Model and training
+OrthoFoundation probe,-0.0055,3,0,3,29,Model and training
+Second seed,0.0028,2.5,0,2.5,31,Model and training
+3rd and 4th seeds,0.0011,5,0,5,22,Model and training
+Synovitis loss ×4,-0.0008,0.5,0,0.5,51,Model and training
+Series dropout (training),-0.0018,0.6,0,0.6,49,Model and training
+Epoch averaging,0.0000,0,0.2,0.02,91,Model and training
+36 auxiliary outputs,-0.0034,1.5,0.1,1.51,37,Model and training
+Augmentation recipes as members,0.0014,20,0.2,20.02,5,Model and training
+OA loss-masking specialists,0.0026,3,0,3,29,Model and training
+LM and PF OA specialists,0.0010,5,0,5,22,Model and training
+Medial OA specialists,-0.0010,3,0,3,29,Model and training
+Full-data models,0.0000,3,0,3,29,Model and training
+Early stopping,0.0000,0.1,0,0.1,71,Model and training
+Slice-shift TTA,0.0000,1,0,1,42,Inference and post-processing
+Series-dropout TTA,-0.0001,0.2,0,0.2,63,Inference and post-processing
+Stacker on own outputs,-0.0014,0,0.5,0.05,80,Inference and post-processing
+Stacker with image features,-0.0027,0,0.5,0.05,80,Inference and post-processing
+Blend with public Raptor model,0.0370,1,0,1,42,Ensemble and blending
+Switch to public .943 stack,0.0130,8,0,8,17,Ensemble and blending
+Leg at 20% on public base,0.0010,2,0,2,34,Ensemble and blending
+Per-finding blend weights,0.0000,2,0.1,2.01,34,Ensemble and blending
+Leg share 20% → 30%,-0.0010,2,0,2,34,Ensemble and blending

@@ -13,14 +13,12 @@ venv/
 .vscode/
 .idea/
 
-# Competition data (not redistributable) and local files
+# Competition data, label files, caches and model weights (not redistributable or too large)
 data/
+oof/
+models/
 _archive/
 
-# Regenerable or not for publication
-# rendered by 02_render_packets.py (~550 MB)
-outputs/packets/
-# scratch output of 04_score.py
-outputs/scores/
-# raw API responses: evidence notes can quote or paraphrase competition reports
-outputs/runs/*/raw/
+# Local working folders
+poster/
+Claude outputs/

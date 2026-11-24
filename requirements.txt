@@ -1,11 +1,11 @@
-# Tested with Python 3.13. Versions are those used for the committed runs.
-numpy==2.2.4
-pandas==3.0.6
-scipy==1.18.1
-pillow==12.3.0
-pydicom==3.0.2
-kagglehub==1.0.0
-openai==3.24.0
-python-dotenv==1.2.3
-# optional: markdown tables in summary.md
-# tabulate
+# Local label and evaluation scripts. The training and submission notebooks install their own
+# packages on Colab / Kaggle (torch, timm, pydicom and decoders).
+numpy
+pandas
+scipy
+scikit-learn
+torch
+transformers          # labels/01_radbert_review_flags.py
+anthropic             # labels/03_dual_llm_readers.ipynb
+openai
+kagglehub
